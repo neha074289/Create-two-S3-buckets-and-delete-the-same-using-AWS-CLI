@@ -40,3 +40,6 @@ aws s3 rb s3://bucket-name2 --force
 
 Verify that both buckets are deleted with:
 aws s3 ls
+
+
+Go back to the AWS S3 buckets and reload, if no bucket appears, the deletion of buckets is successful.
